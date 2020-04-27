@@ -5,7 +5,7 @@ import './Contact.css'
 import axios from 'axios'
 import GMap from '../gmap/GMap'
 
-const API_KEY_GMAP = require('./api_key.js')
+// const API_KEY_GMAP = require('./api_key.js')
 
 export default class Contact extends React.Component {
     constructor(props) {
