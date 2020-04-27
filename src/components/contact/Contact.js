@@ -23,7 +23,7 @@ export default class Contact extends React.Component {
         this.changeMessage = this.changeMessage.bind(this)
         this.handleSubmit = this.handleSubmit.bind(this)
         // this.gmap_api_key = API_KEY_GMAP || ""
-        this.gmap_api_key = ""
+        this.gmap_api_key = process.env.REACT_APP_GMAP_API
     }
 
     changeName(e) {
