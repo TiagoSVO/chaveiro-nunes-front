@@ -1,0 +1,30 @@
+/*-- HERO --*/
+.cn-hero {
+    background-image: linear-gradient(#5C6B99, #5C7EE5);
+    color: #fff;
+    min-height: 550px;
+}
+
+.nav-menu {
+    position: relative;
+    overflow: hidden;
+}
+
+.cn-hero .carousel {
+    border: 20px solid #fff;
+    margin: 50px 0;
+}
+
+.cn-hero .carousel-inner {
+    height: 400px;
+}
+
+.cn-hero .carousel .carousel-item {
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
+}
+
+/*-- HERO --*/

@@ -1,0 +1,55 @@
+/*-- SERVICES --*/
+.cn-services {
+    background-image: linear-gradient(#d39e00, #ffc107);
+    color: #333;
+    min-height: 550px;
+    padding: 50px 0;
+}
+
+.cn-services h2 {
+    color: white;
+}
+
+.cn-services-card-image {
+    width: 100%;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
+}
+
+.cn-services-cards-wrapper .card {
+    box-shadow: 0 0 0 #333 ;
+    transition: 0.5s;
+}
+
+.cn-services-cards-wrapper .card:hover {
+    box-shadow: 0 0 1em #333 ;
+    transition: 0.5s;
+}
+
+.cn-services-list-wrapper {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px 0;
+}
+
+.cn-services-list-item-img {
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50% 50%;
+}
+
+.cn-services-list-wrapper h2 {
+    color: #3f4f82;
+}
+
+.cn-services-list-item {
+    margin-bottom: 15px;
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+/*-- SERVICES --*/

@@ -1,0 +1,9 @@
+.bg-cn-nav {
+    background-color: #5C6B99;
+    box-shadow: 0 0 0em #333;
+}
+
+.bg-cn-nav.sticky {
+    box-shadow: 0 0 1em #333;
+    transition: 0.5s;
+}
