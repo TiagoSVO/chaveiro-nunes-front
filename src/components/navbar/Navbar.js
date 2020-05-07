@@ -2,12 +2,14 @@ import React from 'react';
 import './Navbar.css';
 import { Navbar, Nav, Button, Form, FormControl } from 'react-bootstrap'
 import $ from 'jquery'
+import logo from '../../assets/imgs/logo.png';
 
 export default class CNNavbar extends React.Component {
     constructor(props) {
         super(props);
         this.handleScroll = this.handleScroll.bind(this);
         this.handleScrollSmooth = this.handleScrollSmooth.bind(this);
+        this.logo = logo
     }
       
     componentDidMount() {
@@ -47,7 +49,9 @@ export default class CNNavbar extends React.Component {
     render() {
         return (
             <Navbar id="cn-navbar" bg="cn-nav" expand="lg" variant="dark" sticky="top">
-                <Navbar.Brand onClick={this.handleScrollSmooth} href="#home"><strong>CHAVEIRO NUNES</strong></Navbar.Brand>
+                <Navbar.Brand onClick={this.handleScrollSmooth} href="#home">
+                {/* {this.logo ? <img className="img-responsive" src={this.logo} alt="Logo Chaveiro Nunes"/> : <strong>CHAVEIRO NUNES</strong> } */}
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto pull-right">

@@ -27,4 +27,26 @@
     background-position: 50% 50%;
 }
 
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+    .cn-hero {
+        background-image: linear-gradient(#5C6B99, #5C7EE5);
+        color: #fff;
+        min-height: 300px;
+    }
+
+    .cn-hero .carousel-inner {
+        height: 250px;
+    }
+
+    .cn-hero .carousel .carousel-item {
+        width: 100%;
+        height: 250px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 50% 50%;
+    }
+}
+
+
 /*-- HERO --*/

@@ -37,4 +37,10 @@
     padding-left: 20px;
 }
 
+@media (max-width: 768px) { 
+    .cn-contact-numbers {
+        margin-top: 30px;
+    }
+}
+
 /*-- CONTACT --*/

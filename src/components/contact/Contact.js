@@ -77,7 +77,7 @@ export default class Contact extends React.Component {
                         </Col>
                     </Row>
                     <Row>
-                        <Col>
+                        <Col xs={12} sm={6}>
                         <div className="cn-box-contact">
                         <Form id="cn-contact-form" onSubmit={this.handleSubmit}>
                             <Form.Group controlId="cn-contact-name">
