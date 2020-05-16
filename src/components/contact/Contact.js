@@ -112,7 +112,7 @@ export default class Contact extends React.Component {
                         </Form>
                         </div>
                         </Col>
-                        <Col>
+                        <Col xs={12} sm={6}>
                         <div className="cn-contact-numbers">
                             <Row>
                             <Col>
@@ -143,10 +143,14 @@ export default class Contact extends React.Component {
                         </div>
                         </Col>
                     </Row>
-                    <hr/>
                     <Row>
                         <Col>
-                            <GMap isMarkerShown
+                            <hr/>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col xs={12} sm={6}>
+                            <GMap isMarkerShown={true}
                             googleMapURL={'https://maps.googleapis.com/maps/api/js?key='+ this.gmap_api_key + '&v=3.exp&libraries=geometry,drawing,places'}
                             loadingElement={<div style={{ height: `100%` }} />}
                             containerElement={<div style={{ height: `400px` }} />}
@@ -154,7 +158,7 @@ export default class Contact extends React.Component {
                             />
                             
                         </Col>
-                        <Col>
+                        <Col xs={12} sm={6}>
                             <div className="cn-contact-address">
                                 <strong>Endereço:</strong> <span>SHCES Quadra 1205 Quiosque 15 próximo ao Bloco K, Cruzeiro Novo - Brasília/DF.</span><br/>
                                 <strong>CEP:</strong> <span>70.658-250.</span>
