@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import ButtonWhatsapp from '../buttonWhatsapp/ButtonWhatsapp';
 import CNNavbar from '../navbar/Navbar';
 import CNHero from '../hero/Hero';
 import CNContact from '../contact/Contact';
@@ -11,6 +12,7 @@ import CNFooter from '../footer/Footer';
 function App() {  
   return (
     <React.Fragment>
+      <ButtonWhatsapp />
       <CNNavbar />
       <CNHero />
       <CNContact />

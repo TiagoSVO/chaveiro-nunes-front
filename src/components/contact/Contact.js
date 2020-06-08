@@ -126,7 +126,7 @@ export default class Contact extends React.Component {
                             <Row>
                             <Col>
                                 <div className="cn-contact-number">
-                                <FaWhatsapp size={22} color="5C6B99" />
+                                <a href="https://wa.me/5561999641431?text=Preciso de seu serviço" className="btn btn-cn-whatsapp"><FaWhatsapp size={22}/></a>
                                 <span>(61) 9.9964-1431</span>
                                 </div>
                             </Col>
