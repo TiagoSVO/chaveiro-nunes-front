@@ -4,10 +4,12 @@ module.exports = [{
     "title": "Serviços Automotivos",
     "description": "Serviços como abertura de carros, cópias de chaves automotivas e codificadas, etc.",
     "items": [{
+        "id": 1,
         "image": require("../assets/imgs/20200331_112020.jpg"),
         "title": "Chave automotiva simples",
         "description": "Realiza-se uma cópia de chave automotiva simples a partir da chave original."
     },{
+        "id": 2,
         "image": require("../assets/imgs/20200331_112020.jpg"),
         "title": "Cópia de chave automotiva codificada",
         "description": "Realiza-se uma cópia de chave automotiva a partir da chave original e codifica-a."
@@ -18,14 +20,17 @@ module.exports = [{
     "title": "Serviços Gerais",
     "description": "Serviços gerais de chaveiro como: cópias de chaves, abertura de portas, cofres e cadeados, etc.",
     "items": [{
+        "id": 3,
         "image": require("../assets/imgs/20200331_112020.jpg"),
         "title": "Cópia de chave simples",
         "description": "Realiza-se uma cópia de chave simples a partir da chave original."
     },{
+        "id": 4,
         "image": require("../assets/imgs/20200331_112020.jpg"),
         "title": "Cópia de chave tetra",
         "description": "Realiza-se uma cópia de chave tetra a partir da chave original."
     },{
+        "id": 5,
         "image": require("../assets/imgs/20200331_112020.jpg"),
         "title": "Cópia de chave multiponto",
         "description": "Realiza-se uma cópia de chave multiponto a partir da chave original."
@@ -36,18 +41,22 @@ module.exports = [{
     "title": "Serviços Diversos",
     "description": "Serviços gerais de chaveiro como: cópias de chaves, abertura de portas, cofres e cadeados, etc.",
     "items": [{
+        "id": 6,
         "image": require("../assets/imgs/20200331_112020.jpg"),
         "title": "Troca de pulseira de relógio",
         "description": "Realiza-se uma cópia de chave simples a partir da chave original."
     },{
+        "id": 7,
         "image": require("../assets/imgs/20200331_112020.jpg"),
         "title": "Ajuste de pulseira de relógio",
         "description": "Realiza-se uma cópia de chave simples a partir da chave original."
     },{
+        "id": 8,
         "image": require("../assets/imgs/20200331_112020.jpg"),
         "title": "Troca de baterias para relógio",
         "description": "Realiza-se uma cópia de chave simples a partir da chave original."
     },{
+        "id": 9,
         "image": require("../assets/imgs/20200331_112020.jpg"),
         "title": "Venda de baterias",
         "description": "Realiza-se uma cópia de chave simples a partir da chave original."

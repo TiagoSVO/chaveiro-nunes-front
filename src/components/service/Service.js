@@ -49,7 +49,7 @@ export default class CNService extends Component {
                             <CardDeck>
                                 {this.state.services.map((service) => {
                                     return (
-                                    <Card style={{ width: '18rem' }}>
+                                    <Card key={service.id} style={{ width: '18rem' }}>
                                         <div className="cn-services-card-image" style={{backgroundImage: 'url(' + service.image + ')'}}></div>
                                         <Card.Body>
                                             <Card.Title>{service.title}</Card.Title>
@@ -77,7 +77,7 @@ export default class CNService extends Component {
                                 </Row>
                                 {listServices.items.map((item) => {
                                     return(
-                                        <Row className="cn-services-list-item">
+                                        <Row key={item.id} className="cn-services-list-item">
                                             <Col xs={3}>
                                                 <div className="cn-services-list-item-img" style={{backgroundImage: 'url(' + item.image + ')'}}></div>
                                             </Col>
