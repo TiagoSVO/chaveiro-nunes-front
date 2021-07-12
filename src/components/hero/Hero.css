@@ -27,6 +27,10 @@
     background-position: 50% 50%;
 }
 
+.cn-hero .carousel .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (max-width: 768px) { 
     .cn-hero {
