@@ -150,7 +150,12 @@ export default class Contact extends React.Component {
                     </Row>
                     <Row>
                         <Col xs={12} sm={6}>
-
+                            <GMap isMarkerShown={true}
+                            googleMapURL={'https://maps.googleapis.com/maps/api/js?key='+ this.gmap_api_key + '&v=3.exp&libraries=geometry,drawing,places'}
+                            loadingElement={<div style={{ height: `100%` }} />}
+                            containerElement={<div style={{ height: `400px` }} />}
+                            mapElement={<div style={{ height: `100%` }} />}
+                            />
                             
                         </Col>
                         <Col xs={12} sm={6}>
