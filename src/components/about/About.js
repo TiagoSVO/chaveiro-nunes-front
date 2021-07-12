@@ -8,10 +8,10 @@ export default class CNAbout extends Component {
         return(<section id="about" className="cn-about">
         <Container>
           <Row>
-            <Col>
+            <Col xs={12} md={2}>
               <img className="img-responsive" src={photoAbout} alt="Foto para ilustrar a loja Chaveiro Nunes" />
             </Col>
-            <Col xs={10}>
+            <Col xs={12} md={10}>
               <h2>Sobre</h2>
               <p>Chaveiro Nunes há 31 anos no Cruzeiro Novo com história e profissionalismo na área de chaveiro e serviços afins.</p>
               <p>Na busca da qualidade dos serviços já exerceu cursos em diversas áreas como abertura de cofres em geral, chaves automotivas codificadas, afiação de alicate e tesouras etc.</p>
