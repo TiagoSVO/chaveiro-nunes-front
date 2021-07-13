@@ -20,7 +20,7 @@ export default class CNHero extends Component {
             <Carousel>
               {this.state.carouselItems.map((item) => {
                 return (
-                  <Carousel.Item style={{backgroundImage: 'url(' + item.image.default + ')'}}>
+                  <Carousel.Item key={item.id} style={{backgroundImage: 'url(' + item.image.default + ')'}}>
                     <Carousel.Caption>
                       <h3>{item.title}</h3>
                       <p>{item.label}</p>
