@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/chaveiro-nunes-front/static/css/main.6b4f6df5.chunk.css",
+    "main.js": "/chaveiro-nunes-front/static/js/main.768532ed.chunk.js",
+    "main.js.map": "/chaveiro-nunes-front/static/js/main.768532ed.chunk.js.map",
+    "runtime-main.js": "/chaveiro-nunes-front/static/js/runtime-main.b888bf02.js",
+    "runtime-main.js.map": "/chaveiro-nunes-front/static/js/runtime-main.b888bf02.js.map",
+    "static/css/2.081f420c.chunk.css": "/chaveiro-nunes-front/static/css/2.081f420c.chunk.css",
+    "static/js/2.58831a0f.chunk.js": "/chaveiro-nunes-front/static/js/2.58831a0f.chunk.js",
+    "static/js/2.58831a0f.chunk.js.map": "/chaveiro-nunes-front/static/js/2.58831a0f.chunk.js.map",
+    "index.html": "/chaveiro-nunes-front/index.html",
+    "static/css/2.081f420c.chunk.css.map": "/chaveiro-nunes-front/static/css/2.081f420c.chunk.css.map",
+    "static/css/main.6b4f6df5.chunk.css.map": "/chaveiro-nunes-front/static/css/main.6b4f6df5.chunk.css.map",
+    "static/js/2.58831a0f.chunk.js.LICENSE.txt": "/chaveiro-nunes-front/static/js/2.58831a0f.chunk.js.LICENSE.txt",
+    "static/media/20200331_111944.ac4e9108.jpg": "/chaveiro-nunes-front/static/media/20200331_111944.ac4e9108.jpg",
+    "static/media/20200331_111958.f91b99a2.jpg": "/chaveiro-nunes-front/static/media/20200331_111958.f91b99a2.jpg",
+    "static/media/20200331_112020.jpg": "/chaveiro-nunes-front/static/media/20200331_112020.0fdc8e84.jpg",
+    "static/media/size_960_16_9_vendas2.jpg": "/chaveiro-nunes-front/static/media/size_960_16_9_vendas2.4de603e8.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b888bf02.js",
+    "static/css/2.081f420c.chunk.css",
+    "static/js/2.58831a0f.chunk.js",
+    "static/css/main.6b4f6df5.chunk.css",
+    "static/js/main.768532ed.chunk.js"
+  ]
+}
